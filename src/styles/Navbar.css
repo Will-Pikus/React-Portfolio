@@ -1,0 +1,18 @@
+.navbar {
+    height: 100px;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+    border-bottom: solid 7px rgb(197, 197, 197);
+  }
+
+  .navbar ul {
+    margin-top: 20px;
+  }
+
+  .navbar li {
+    display: inline-flex;
+    margin-left: 20px;
+    color: black;
+  }

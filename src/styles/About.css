@@ -1,0 +1,14 @@
+.header{
+    background-color: rgb(37, 37, 37);
+    height: 300px;
+    width: 100%;
+    color: white;
+    display: inline-flex;
+
+}
+
+.meImg{
+    /* background-image: url("../../public/me_dark.jpg"); */
+    height: 400px;
+    width: 400px;
+}

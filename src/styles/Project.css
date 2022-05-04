@@ -1,0 +1,63 @@
+.project{
+    height: 300px;
+    width: 400px;
+    background-color: rgb(143, 39, 39);
+    margin: 80px;
+    border-radius: 5px 5px 5px 5px;
+    display: flex;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.card-header{
+    position: relative;
+    margin: -3.5rem 0 1.5rem 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.p1{
+    background-image: url("../../public/workday-scheduler.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.p2{
+    background-image: url("../../public/weather-dashboard.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.p3{
+    background-image: url("./images/restroom-finder.JPG");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.p4{
+    background-image: url("../../public/weather-dashboard.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.p5{
+    background-image: url("../../public/weather-dashboard.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.p6{
+    background-image: url("../../public/weather-dashboard.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    border-radius: 5px 5px 5px 5px;
+}

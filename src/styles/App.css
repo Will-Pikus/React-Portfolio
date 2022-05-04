@@ -1,0 +1,49 @@
+:root {
+  /* Color Scheme */
+  --wood-brown: rgb(44, 32, 14);
+  --outer-space: #0e0e0e;
+  --forest: #212b25;
+  --dark-background: rgb(25, 25, 25);
+  --blood-orange:rgb(255, 94, 0) ;
+  --stone-grey:rgb(175, 175, 175);
+  /* Font Scheme */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif; */
+  }
+
+  .main-image {
+    height: 750px;
+    width: 100%;
+    background-image: url("../../public/bwrock.jpg");
+    background-size: cover;
+    background-position: center;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: solid 7px rgb(197, 197, 197);
+  }
+
+  .main-image h2{
+    color: var(--blood-orange);
+    background-color: rgb(0,0,0, .3);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 15px white;
+    position: relative;
+    font-size: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+  }
