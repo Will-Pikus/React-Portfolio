@@ -5,6 +5,7 @@
     padding: 20px;
     text-align: center;
     border-bottom: solid 7px rgb(197, 197, 197);
+    text-decoration: none;
   }
 
   .navbar ul {
@@ -14,5 +15,16 @@
   .navbar li {
     display: inline-flex;
     margin-left: 20px;
-    color: black;
+  }
+
+  .navLink{
+    text-decoration: none;
+    color: var(--dark-background);
+    /* font-weight: bold; */
+  }
+
+  .navLink:hover{
+    font-size: larger;
+    color: var(--blood-orange);
+    font-weight: bold;
   }

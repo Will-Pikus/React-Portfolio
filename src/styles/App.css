@@ -17,33 +17,9 @@
       'Lucida Sans', Arial, sans-serif; */
   }
 
-  .main-image {
-    height: 750px;
-    width: 100%;
-    background-image: url("../../public/bwrock.jpg");
-    background-size: cover;
-    background-position: center;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-bottom: solid 7px rgb(197, 197, 197);
+  body{
+    background-color: rgb(243, 243, 243);
+    height: 100%;
   }
 
-  .main-image h2{
-    color: var(--blood-orange);
-    background-color: rgb(0,0,0, .3);
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    border: solid 15px white;
-    position: relative;
-    font-size: 100px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 400px;
-    padding: 20px;
-    text-align: center;
-  }
+  

@@ -6,17 +6,20 @@ function Navbar() {
   return (
     <nav className="navbar">
       <ul>
+            {/* <li>
+                <NavLink to="/" className="navLink">Home</NavLink>
+            </li> */}
             <li>
-                <NavLink to="/">Home</NavLink>
+                <NavLink to="/" className="navLink">About</NavLink>
             </li>
             <li>
-                <NavLink to="/about">About</NavLink>
+                <NavLink to="/projects" className="navLink">Projects</NavLink>
             </li>
             <li>
-                <NavLink to="/projects">Projects</NavLink>
+                <NavLink to="/resume" className="navLink">Resume</NavLink>
             </li>
             <li>
-                <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/contact" className="navLink">Contact</NavLink>
             </li>
         </ul>
     </nav>
